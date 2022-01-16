@@ -15,6 +15,12 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/3d8495eb65.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>ECOTHUNDER</title>
   </head>
 
@@ -143,7 +149,7 @@
               lectus felis, auctor quis imperdiet vel, tempor non neque. Proin
               sed sapien quis magna lobortis
             </p>
-            <a class="btn btn-primary" href="powerearth.html"
+            <a class="btn btn-success" href="powerearth.html"
               >The power of Earth</a
             >
           </div>
@@ -183,65 +189,83 @@
       </section>
     </main>
 
-    <footer id="footer">
-      <div>
-        <div class="first">
-          <h3><a href="index.html">Ecothunder</a></h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            placerat eleifend arcu, sit amet rutrum lectus lobortis quis. Donec
-            aliquam
-          </p>
-          <div>
-            <p>Telephone. : <span>12345678-90</span></p>
-            <p>Fax : <span>23456789-01</span></p>
-            <p>Email : <span>ask@ecothunder.com</span></p>
+    <div class="container">
+      <footer id="footer" class="py-5">
+        <div class="row flex-md-row flex-column align-items-center mb-4">
+          <div class="col-10 col-md-4">
+            <h3><a class="link-dark" href="index.html">Ecothunder</a></h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              placerat eleifend arcu, sit amet rutrum lectus lobortis quis.
+              Donec aliquam
+            </p>
+          </div>
+          <div class="col-10 col-md-4">
+            <h3>Get Social with us!</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              placerat eleifend arcu, sit amet rutrum lectus lobortis quis.
+              Donec aliquam
+            </p>
+          </div>
+
+          <div class="col-10 col-md-4">
+            <form action="#">
+              <h3>Share your thoughts!</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent placerat eleifend arcu, sit amet rutrum lectus lobortis
+                quis. Donec aliquam
+              </p>
+              <div class="d-flex w-100 gap-2">
+                <label for="subscribe" class="visually-hidden"
+                  >Email address</label
+                ><input
+                  class="form-control"
+                  type="text"
+                  id="subscribe"
+                  maxlength="30"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-outline-warning" type="button" value="">
+                  Send
+                </button>
+              </div>
+            </form>
           </div>
         </div>
-        <div>
-          <h3>Get Social with us!</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            placerat eleifend arcu, sit amet rutrum lectus lobortis quis. Donec
-            aliquam
-          </p>
-          <div>
-            <a
-              href="http://facebook.com/freewebsitetemplates"
-              class="facebook"
-              target="_blank"
-            ></a>
-            <a
-              href="http://twitter.com/fwtemplates"
-              class="twitter"
-              target="_blank"
-            ></a>
-            <a href="#" class="linked-in"></a>
-          </div>
+        <div class="row border-top py-4 my-4">
+          <h3 class="col-6">Contact us</h3>
+          <ul class="nav flex-column col-6">
+            <li class="nav-item">Telephone. : <span>12345678-90</span></li>
+            <li class="nav-item">Fax : <span>23456789-01</span></li>
+            <li class="nav-item">Email : <span>ask@ecothunder.com</span></li>
+          </ul>
         </div>
-        <div>
-          <h3>Share your thoughts!</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            placerat eleifend arcu, sit amet rutrum lectus lobortis quis. Donec
-            aliquam
-          </p>
-          <form action="#">
-            <label for="subscribe"
-              ><input
-                type="text"
-                id="subscribe"
-                maxlength="30"
-                value="email address"
-            /></label>
-            <input class="submit" type="submit" value="" />
-          </form>
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
           <p>
             Copyright &copy; 2011 Ecothunder Incorporated <br />LRP 727 6783
             83839 All rights reserved
           </p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a href="#" class="link-dark" target="_blank"
+                ><i class="fab fa-facebook fs-2"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a href="#" class="link-dark" target="_blank"
+                ><i class="fab fa-twitter fs-2"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a href="#" class="link-dark"
+                ><i class="fab fa-linkedin fs-2"></i
+              ></a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
