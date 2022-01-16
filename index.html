@@ -19,10 +19,11 @@
   </head>
 
   <body>
-    <header id="header" class="header fixed-top">
-      <nav class="navbar navbar-dark navbar-expand-lg">
+    <!-- fixed-top (da problemas) -->
+    <header id="header" class="header">
+      <nav class="navbar navbar-light navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand fw-bold mb-0" href="index.html"
+          <a class="navbar-brand fw-bold mb-0 text-white" href="index.html"
             ><img
               class="d-inline-block align-top"
               src="./src/img/logo-leaf.jpg"
@@ -45,37 +46,50 @@
           <div class="navbar-collapse collapse" id="navbarContent">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link active text-white" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About us</a>
+                <a class="nav-link text-white" href="about.html">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link text-white" href="contact.html"
+                  >Contact Us</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="whychoose.html">Why Choose Us?</a>
+                <a class="nav-link text-white" href="whychoose.html"
+                  >Why Choose Us?</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link text-white" href="blog.html">Blog</a>
               </li>
             </ul>
             <form class="d-flex">
               <input type="text" class="form-control me-2" />
-              <button type="submit" class="btn btn-warning">Search</button>
+              <button type="submit" class="btn btn-warning text-white">
+                Search
+              </button>
             </form>
           </div>
         </div>
       </nav>
     </header>
 
-    <main id="content">
-      <div id="section" class="d-flex">
-        <div>
-          <h1>Earth-friendly!</h1>
-          <p>
+    <!-- shadow p-3 mb-5 rounded (shadows) -->
+
+    <main id="main-content">
+      <section id="first-section" class="card bg-dark text-black">
+        <img
+          class="card-img img-fluid"
+          src="./src/img/little-girl-blowing-wind-mill.jpg"
+          alt="Card image"
+        />
+        <div class="card-img-overlay">
+          <h1 class="card-title">Earth-friendly!</h1>
+          <p class="card-text lead text-muted">
             This website template has been designed by
-            <a href="http://www.freewebsitetemplates.com/"
+            <a class="link-success" href="http://www.freewebsitetemplates.com/"
               >Free Website Templates</a
             >
             for you, for free. You can replace all this text with your own text.
@@ -83,63 +97,64 @@
             you're free to use this website template without linking back to us.
             If you're having problems editing this website template, then don't
             hesitate to ask for help on the
-            <a href="http://www.freewebsitetemplates.com/forum/">Forum</a>.
+            <a
+              class="link-success"
+              href="http://www.freewebsitetemplates.com/forum/"
+              >Forum</a
+            >.
           </p>
-          <span>
-            <a class="first" href="index.html">Take a Tour</a>
-            <a href="register.html">Register</a>
+          <span class="card-text">
+            <a type="button" class="btn btn-warning" href="index.html"
+              >Take a Tour</a
+            >
+            <a type="button" class="btn btn-danger" href="register.html"
+              >Register</a
+            >
           </span>
         </div>
-        <div id="figure">
-          <a href="index.html"
-            ><img src="./src/img/little-girl-blowing-wind-mill.jpg" alt="Image"
+      </div>
+
+      <section id="second-section" class="d-flex justify-content-around flex-wrap bg-light">
+        <div class="card cards p-3 m-3">
+          <a href="powerearth.html"
+            ><img class="card-img-top" src="./src/img/map-in-grass.jpg" alt="Image"
           /></a>
-          <span></span>
+          <div class="card-body">
+          <p class="card-text">
+            Lorem ipsum dolor sit amet,consectetur adipiscing elit. Cras lectus
+            felis, auctor quis imperdiet vel, tempor non neque. Proin sed sapien
+            quis magna lobortis
+          </p>
+          <a class="btn btn-primary" href="powerearth.html">The power of Earth</a>
         </div>
-        <span class="background"></span>
-      </div>
-      <div id="featured">
-        <ul>
-          <li class="first">
-            <a href="powerearth.html"
-              ><img src="./src/img/map-in-grass.jpg" alt="Image"
-            /></a>
-            <span></span>
-            <p>
-              Lorem ipsum dolor sit amet,consectetur adipiscing elit. Cras
-              lectus felis, auctor quis imperdiet vel, tempor non neque. Proin
-              sed sapien quis magna lobortis
-            </p>
-            <a class="link" href="powerearth.html">The power of Earth</a>
-          </li>
-          <li>
-            <a href="earthmad.html"
-              ><img
-                src="./src/img/little-girl-hugging-the-globe.jpg"
-                alt="Image"
-            /></a>
-            <span></span>
-            <p>
-              Lorem ipsum dolor sit amet,consectetur adipiscing elit. Cras
-              lectus felis, auctor quis imperdiet vel, tempor non neque. Proin
-              sed sapien quis magna lobortis
-            </p>
-            <a class="link" href="earthmad.html">Earth No Mad</a>
-          </li>
-          <li>
-            <a href="osmosisbeats.html"
-              ><img src="./src/img/pointing-area-in-globe.jpg" alt="Image"
-            /></a>
-            <span></span>
-            <p>
-              Lorem ipsum dolor sit amet,consectetur adipiscing elit. Cras
-              lectus felis, auctor quis imperdiet vel, tempor non neque. Proin
-              sed sapien quis magna lobortis
-            </p>
-            <a class="link" href="osmosisbeats.html">Osmosis Beats</a>
-          </li>
-        </ul>
-      </div>
+        </div>
+        <div class="card cards p-3 m-3">
+          <a href="earthmad.html"
+            ><img class="card-img-top" src="./src/img/little-girl-hugging-the-globe.jpg" alt="Image"
+          /></a>
+          <div class="card-body">
+          <p class="card-text">
+            Lorem ipsum dolor sit amet,consectetur adipiscing elit. Cras lectus
+            felis, auctor quis imperdiet vel, tempor non neque. Proin sed sapien
+            quis magna lobortis
+          </p>
+          <a class="btn btn-secondary" href="earthmad.html">Earth No Mad</a>
+        </div>
+        </div>
+        <div class="card cards p-3 m-3">
+          <a href="osmosisbeats.html"
+            ><img class="card-img-top" src="./src/img/pointing-area-in-globe.jpg" alt="Image"
+          /></a>
+          <div class="card-body">
+          <p class="card-text">
+            Lorem ipsum dolor sit amet,consectetur adipiscing elit. Cras lectus
+            felis, auctor quis imperdiet vel, tempor non neque. Proin sed sapien
+            quis magna lobortis
+          </p>
+          <a class="btn btn-info" href="osmosisbeats.html">Osmosis Beats</a>
+        </div>
+        </div>
+      </section>
     </main>
 
     <footer id="footer">

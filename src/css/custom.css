@@ -11140,4 +11140,8 @@ textarea.form-control-lg {
   background: linear-gradient(to bottom left, #98e633, #2a973a);
 }
 
+.cards {
+  width: 20rem;
+}
+
 /*# sourceMappingURL=custom.css.map */
