@@ -1,3 +1,14 @@
+$primary: #2a973a;
+$secondary: #98e633;
+
+/* @mixin gradient-directional(
+  $start-color: $gray-700,
+  $end-color: $gray-800,
+  $deg: 45deg
+) {
+  background-image: linear-gradient(to bottom left, #98e633, #2a973a);
+} */
+
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 /* @import '../../node_modules/bootstrap/scss/functions';
@@ -19,12 +30,6 @@
 @import '../../node_modules/bootstrap/scss/buttons';
 @import '../../node_modules/bootstrap/scss/list-group'; */
 
-$primary: linear-gradient(to bottom left, #98e633, #2a973a);
-
 .header {
-  background: $primary;
-}
-
-.cards {
-  width: 20rem;
+  background: linear-gradient(to bottom left, #98e633, #2a973a);
 }

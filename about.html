@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="./src/css/custom.css" />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/3d8495eb65.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>About Us - ECOTHUNDER</title>
+  </head>
+  <body>
+    <header id="header" class="header fixed-top">
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container">
+          <a
+            class="navbar-brand fw-bold mb-0 text-white me-auto"
+            href="index.html"
+            ><img
+              class="d-inline-block align-top"
+              src="./src/img/logo-leaf.jpg"
+              width="30"
+              height="30"
+              alt="Logo"
+            />eco<span class="fw-normal">thunder</span></a
+          >
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="navbar-collapse collapse justify-content-end"
+            id="navbarContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="whychoose.html"
+                  >Why Choose Us?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="blog.html">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input type="text" class="form-control me-2" />
+              <button type="submit" class="btn btn-outline-warning btn-lg px-4">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="pt-5">
+      <section
+        id="myCarousel"
+        class="carousel slide carousel-dark"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            class=""
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            class=""
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            class=""
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="img-fluid"
+              width="100%"
+              src="./src/img/map-in-grass2.jpg"
+              alt="Image"
+            />
+            <div class="carousel-caption text-start text-white">
+              <h1>Example carousel</h1>
+              <p>Some random text not relate to the background image</p>
+              <p><a href="#" class="btn btn-lg btn-warning">Sign up</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="img-fluid"
+              width="100%"
+              src="./src/img/girl-hugging-the-globe.jpg"
+              alt="Image"
+            />
+            <div class="carousel-caption text-start text-white">
+              <h1>Example carousel</h1>
+              <p>Some random text not relate to the background image</p>
+              <p><a href="#" class="btn btn-lg btn-warning">Sign up</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="img-fluid"
+              width="100%"
+              src="./src/img/little-girl-blowing-wind-mill.jpg"
+              alt="Image"
+            />
+            <div class="carousel-caption text-start text-white">
+              <h1>Example carousel</h1>
+              <p>Some random text not relate to the background image</p>
+              <p><a href="#" class="btn btn-lg btn-warning">Sign up</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="img-fluid"
+              width="100%"
+              src="./src/img/pointing-the-globe.jpg"
+              alt="Image"
+            />
+            <div class="carousel-caption text-start text-white">
+              <h1>Example carousel</h1>
+              <p>Some random text not relate to the background image</p>
+              <p><a href="#" class="btn btn-lg btn-warning">Sign up</a></p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <section class="container my-5">
+        <div class="row gap-5 mb-5">
+          <div class="col-10 col-md-5 shadow rounded p-3 mx-auto">
+            <h2>We Have Free Templates for Everyone</h2>
+            <p>
+              Our website templates are created with inspiration, checked for
+              quality and originality and meticulously sliced and coded. What's
+              more, they're absolutely free! You can do a lot with them. You can
+              modify them. You can use them to design websites for clients, so
+              long as you agree with the
+              <a href="http://www.freewebsitetemplates.com/about/termsofuse/"
+                >Terms of Use</a
+              >. You can even remove all our links if you want to.
+            </p>
+          </div>
+          <div class="col-10 col-md-5 shadow rounded p-3 mx-auto">
+            <h2>We Have More Templates for You</h2>
+            <p>
+              Looking for more templates? Just browse through all our
+              <a href="http://www.freewebsitetemplates.com/"
+                >Free Website Templates</a
+              >
+              and find what you're looking for. But if you don't find any
+              website template you can use, you can try our
+              <a href="http://www.freewebsitetemplates.com/freewebdesign/"
+                >Free Web Design</a
+              >
+              service and tell us all about it. Maybe you're looking for
+              something different, something special. And we love the challenge
+              of doing something different and something special.
+            </p>
+          </div>
+        </div>
+        <div class="row gap-5">
+          <div class="col-10 col-md-5 shadow rounded p-3 mx-auto">
+            <h2>Be Part of Our Community</h2>
+            <p>
+              If you're experiencing issues and concerns about this website
+              template, join the discussion
+              <a href="http://www.freewebsitetemplates.com/forum/"
+                >on our forum</a
+              >
+              and meet other people in the community who share the same
+              interests with you.
+            </p>
+          </div>
+          <div class="col-10 col-md-5 shadow rounded p-3 mx-auto">
+            <h2>Template details</h2>
+            <p>
+              Version 3 <br />Website Template details, discussion and updates
+              for this
+              <a
+                href="http://www.freewebsitetemplates.com/forum/f18/ecological-website-template-18798"
+                >Ecological Website Template</a
+              >. <br />Website Template design by
+              <a href="http://www.freewebsitetemplates.com/"
+                >Free Website Templates</a
+              >. <br />Please feel free to remove some or all the text and links
+              of this page and replace it with your own About content.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="bg-dark text-white">
+      <div class="container">
+        <div class="py-5">
+          <div
+            class="row flex-md-row align-items-md-start flex-column align-items-center mb-4"
+          >
+            <div class="col-10 col-md-4">
+              <h3><a class="link-light" href="index.html">Ecothunder</a></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent placerat eleifend arcu, sit amet rutrum lectus lobortis
+                quis. Donec aliquam
+              </p>
+            </div>
+            <div class="col-10 col-md-4">
+              <h3>Get Social with us!</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent placerat eleifend arcu, sit amet rutrum lectus lobortis
+                quis. Donec aliquam
+              </p>
+            </div>
+
+            <div class="col-10 col-md-4">
+              <form action="#">
+                <h3>Share your thoughts!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Praesent placerat eleifend arcu, sit amet rutrum lectus
+                  lobortis quis. Donec aliquam
+                </p>
+                <div class="d-flex w-100 gap-2">
+                  <label for="subscribe" class="visually-hidden"
+                    >Email address</label
+                  ><input
+                    class="form-control"
+                    type="text"
+                    id="subscribe"
+                    maxlength="30"
+                    placeholder="Email address"
+                  />
+                  <button
+                    class="btn btn-outline-warning"
+                    type="button"
+                    value=""
+                  >
+                    Send
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="row border-top py-4 my-4">
+            <h3 class="col-6">Contact us</h3>
+            <ul class="nav flex-column col-6">
+              <li class="nav-item">Telephone. : <span>12345678-90</span></li>
+              <li class="nav-item">Fax : <span>23456789-01</span></li>
+              <li class="nav-item">Email : <span>ask@ecothunder.com</span></li>
+            </ul>
+          </div>
+          <div class="d-flex justify-content-between py-4 my-4 border-top">
+            <p>
+              Copyright &copy; 2011 Ecothunder Incorporated <br />LRP 727 6783
+              83839 All rights reserved
+            </p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a href="#" class="link-light" target="_blank"
+                  ><i class="fab fa-facebook fs-2"></i
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a href="#" class="link-light" target="_blank"
+                  ><i class="fab fa-twitter fs-2"></i
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a href="#" class="link-light"
+                  ><i class="fab fa-linkedin fs-2"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
