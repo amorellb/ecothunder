@@ -57,7 +57,7 @@
                 <a class="nav-link active text-white" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="about.html">About us</a>
+                <a class="nav-link text-white" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="contact.html"
@@ -101,7 +101,7 @@
             <a href="http://www.freewebsitetemplates.com/forum/">Forum</a>.
           </p>
         </div>
-        <form action="#" class="needs-validation" novalidate="">
+        <form action="#" class="needs-validation" novalidate>
           <div class="container">
             <div class="row g-3">
               <div class="col-12 col-md-6 mb-3">
@@ -111,7 +111,9 @@
                   type="text"
                   maxlength="30"
                   id="name"
+                  required
                 />
+                <div class="invalid-feedback">Please choose a username.</div>
               </div>
               <div class="col-12 col-md-6 mb-3">
                 <label class="form-label" for="email">Email</label>
@@ -120,7 +122,9 @@
                   type="text"
                   maxlength="30"
                   id="email"
+                  required
                 />
+                <div class="invalid-feedback">Please choose an email.</div>
               </div>
               <div class="col-12 col-md-6 mb-3">
                 <label class="form-label" for="subject">Subject</label>
@@ -129,7 +133,9 @@
                   type="text"
                   maxlength="30"
                   id="subject"
+                  required
                 />
+                <div class="invalid-feedback">Please choose a subject.</div>
               </div>
             </div>
             <div class="col-12 mb-3">
@@ -152,10 +158,16 @@
               >
             </div>
             <div class="form-check mb-3">
-              <input class="form-check-input" type="checkbox" id="terms" />
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="terms"
+                required
+              />
               <label class="form-check-label" for="terms"
                 >I agree to the Terms and Conditions</label
               >
+              <div class="invalid-feedback">Please click on the checkbox.</div>
             </div>
           </div>
           <div class="d-grid d-sm-flex mx-2">

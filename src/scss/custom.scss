@@ -4,15 +4,6 @@ $warning: #cdaf09;
 $danger: #ca1c1e;
 $header: linear-gradient(to top right, $secondary, $primary);
 
-/* // Own colors
-$custom-colors: (
-  'footer': #1e2429,
-  'white-letter': #e4e1e1
-);
-
-// Merge the maps
-$theme-colors: map-merge($theme-colors, $custom-colors); */
-
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 .header {

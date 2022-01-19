@@ -1,12 +1,4 @@
 @charset "UTF-8";
-/* // Own colors
-$custom-colors: (
-  'footer': #1e2429,
-  'white-letter': #e4e1e1
-);
-
-// Merge the maps
-$theme-colors: map-merge($theme-colors, $custom-colors); */
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
